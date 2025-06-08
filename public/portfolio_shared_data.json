@@ -67,6 +67,26 @@
         "level": "85"
       },
       {
+        "name": "NestJs",
+        "class": "devicon-nestjs-plain",
+        "level": "60"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "60"
+      },
+      {
+        "name": "Typescript",
+        "class": "devicon-typescript-plain",
+        "level": "60"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "60"
+      },
+      {
         "name": "MongoDb",
         "class": "devicon-mysql-plain",
         "level": "60"

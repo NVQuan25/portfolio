@@ -1,210 +1,108 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 Tôi là Ngô Văn Quân, 22 tuổi, một lập trình viên đam mê công nghệ. Thành thạo HTML, CSS, JavaScript và đặc biệt yêu thích làm việc với React để xây dựng các giao diện web động. Bên cạnh đó, tôi cũng có kinh nghiệm với Node.js, Next.js và Express.js, giúp tôi phát triển các ứng dụng web từ frontend đến backend.Là một người học tự động với tư duy giải quyết vấn đề sáng tạo, tôi đánh giá cao sự hợp tác trong môi trường làm việc nhóm. Tôi mong muốn được đóng góp vào các dự án thú vị, áp dụng kỹ năng của mình và tiếp tục phát triển chuyên môn.",
+    "description_header": "Xin chào",
+    "description": "Lập trình viên Frontend năng động với 1 năm kinh nghiệm phát triển các ứng dụng web đáp ứng, nâng cao trải nghiệm người dùng và hiệu suất. Thành thạo các framework JavaScript và TypeScript hiện đại như Next.js và React, có nền tảng vững chắc về HTML & CSS để tạo giao diện thân thiện với người dùng. Kỹ năng hợp tác với các nhóm đa chức năng để hoàn thiện phạm vi dự án và bàn giao mã nguồn chất lượng cao, dễ bảo trì. Cam kết tối ưu hiệu suất giao diện và tuân thủ các tiêu chuẩn lập trình tốt nhất, mang lại kết quả ấn tượng trong nhiều môi trường phát triển khác nhau.",
     "section_name": {
-      "about": "Về tôi",
+      "about": "Giới thiệu",
       "projects": "Dự án",
       "skills": "Kỹ năng",
-      "experience": "Kinh nghiệm"
+      "experience": "Kinh nghiệm",
+      "contact": "Liên hệ"
     }
   },
   "projects": [
     {
-      "title": "Jira",
-      "startDate": "2022",
-      "description": "Cloning Jira đề cập đến việc tạo ra một bản sao chính xác của một vấn đề hiện có. Bản sao này kế thừa tất cả các trường, bao gồm tóm tắt, mô tả, tệp đính kèm và các vấn đề liên kết, nhưng có khóa vấn đề mới. Điều này giúp tối ưu hóa quản lý công việc bằng cách cho phép nhân đôi nhanh chóng các nhiệm vụ. Bạn có thể kiểm tra tư cách khách bằng email:'test@gmail.com', mật khẩu:'test'. Nếu bạn muốn kiểm tra đầy đủ chức năng, hãy làm theo Readme.md.",
+      "title": "HỆ THỐNG ĐẶT LỊCH BẢO DƯỠNG XE MÁY",
+      "startDate": "2025",
+      "description": "Ứng dụng web cho phép khách hàng đặt lịch bảo dưỡng, kỹ thuật viên quản lý và thực hiện các công việc bảo trì, quản trị viên giám sát hoạt động hệ thống. Hỗ trợ xác thực người dùng, kiểm tra hợp lệ lịch đặt, theo dõi lịch sử bảo dưỡng và gửi thông báo email giúp quy trình bảo trì diễn ra trơn tru, hiệu quả.",
       "images": [
-        "images/jira/jira-project-1.png",
-        "images/jira/jira-project-2.png"
+        "images/motorbike-system/mt-1.png",
+        "images/motorbike-system/mt-2.png",
+        "images/motorbike-system/mt-3.png",
+        "images/motorbike-system/mt-4.png",
+        "images/motorbike-system/mt-5.png",
+        "images/motorbike-system/mt-6.png",
+        "images/motorbike-system/mt-7.png",
+        "images/motorbike-system/mt-8.png",
+        "images/motorbike-system/mt-9.png",
+        "images/motorbike-system/mt-10.png"
       ],
-      "url": "https://project-jira-bc34.vercel.app/login",
       "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-bootstrap-plain",
-          "name": "bootstrap"
-        },
-        {
-          "class": "devicon-antdesign-plain",
-          "name": "Antd"
-        },
-        {
-          "class": "devicon-axios-plain",
-          "name": "axios"
-        },
-        {
-          "class": "devicon-fastapi-plain",
-          "name": "api"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux-thunk"
-        }
+        { "class": "devicon-react-plain", "name": "react" },
+        { "class": "devicon-nextjs-plain", "name": "nextjs" },
+        { "class": "devicon-nestjs-plain", "name": "nestjs" },
+        { "class": "devicon-mongodb-plain", "name": "mongodb" },
+        { "class": "devicon-docker-plain", "name": "docker" },
+        { "class": "devicon-typscript-plain", "name": "typscript" },
+        { "class": "devicon-tailwindcss-plain", "name": "tailwindcss" },
+        { "class": "devicon-antd-plain", "name": "antd" },
+        { "class": "devicon-axios-plain", "name": "axios" },
+        { "class": "devicon-fastapi-plain", "name": "api" },
+        { "class": "devicon-redux-plain", "name": "redux" },
+        { "class": "devicon-redux-plain", "name": "redux-thunk" }
       ]
     },
     {
-      "title": "Jira Api",
-      "startDate": "2024",
-      "description": "Dự án công việc quản lý hệ thống mô phỏng API, giúp tôi ghi lại quá trình phát hành phát triển và các công việc đã thực hiện.",
-      "images": ["images/jira-api/jira-api.png"],
-      "url": "https://jira-main.onrender.com/swagger/",
+      "title": "NỀN TẢNG THƯƠNG MẠI ĐIỆN TỬ - COSOVO",
+      "startDate": "2025",
+      "description": "Nền tảng thương mại điện tử full-stack bán sản phẩm điện tử (Đang phát triển). Cung cấp hiển thị sản phẩm, đặt hàng, thanh toán bằng mã QR qua VietQR, tích hợp webhook thanh toán với Casso giúp giao dịch liền mạch.",
+      "images": [
+        "images/cosovo/cosovo-1.png",
+        "images/cosovo/cosovo-2.png",
+        "images/cosovo/cosovo-3.png",
+        "images/cosovo/cosovo-4.png"
+      ],
+      "url": "https://cosovo.vn",
       "technologies": [
-        {
-          "class": "devicon-bcrypt-plain",
-          "name": "bcrypt"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node js"
-        },
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "mongodb"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "express"
-        },
-        {
-          "class": "devicon-swagger-plain",
-          "name": "swagger"
-        }
+        { "class": "devicon-react-plain", "name": "reactjs" },
+        { "class": "devicon-typescript-plain", "name": "typescript" },
+        { "class": "devicon-go-plain", "name": "golang" },
+        { "class": "devicon-postgresql-plain", "name": "postgresql" },
+        { "class": "devicon-docker-plain", "name": "docker" },
+        { "class": "devicon-github-original", "name": "github-action" }
       ]
     },
     {
-      "title": "Air-bnb-api",
-      "startDate": "2023",
-      "description": "Air-bnb-api là một dự án mô phỏng ứng dụng Airbnb, cung cấp một nền tảng trực tuyến cho thuê nhà ngắn hạn. Dự án này tái tạo các tính năng chính của Airbnb, cho phép người dùng đăng ký, đăng nhập, tìm kiếm, và đặt chỗ ở. Với giao diện thân thiện và hệ thống quản lý chỗ ở linh hoạt, Air-bnb-api mang lại trải nghiệm thuê nhà trực tuyến tiện lợi và dễ dàng.",
-      "images": ["images/air-bnb-api/air-bnb-api.png"],
-      "url": "https://github.com/Quaniscoding/air-bnb-api",
+      "title": "NỀN TẢNG THƯƠNG MẠI ĐIỆN TỬ - SAIGONTECH",
+      "startDate": "2025",
+      "description": "Nền tảng thương mại điện tử full-stack cho bán sỉ sản phẩm điện tử (Đang phát triển). Hỗ trợ hiển thị sản phẩm, đặt hàng, xây dựng hướng tới khả năng mở rộng và độ tin cậy cao.",
+      "images": [
+        "images/saigontech/saigontech-1.png",
+        "images/saigontech/saigontech-2.png",
+        "images/saigontech/saigontech-3.png",
+        "images/saigontech/saigontech-4.png"
+      ],
+      "url": "https://saigonglobaltech.com",
       "technologies": [
-        {
-          "class": "devicon-bcrypt-plain",
-          "name": "bcrypt"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node js"
-        },
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "mongodb"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "express"
-        },
-        {
-          "class": "devicon-swagger-plain",
-          "name": "swagger"
-        }
+        { "class": "devicon-nextjs-plain", "name": "nextjs" },
+        { "class": "devicon-typescript-plain", "name": "typescript" },
+        { "class": "devicon-go-plain", "name": "golang" },
+        { "class": "devicon-postgresql-plain", "name": "postgresql" },
+        { "class": "devicon-docker-plain", "name": "docker" },
+        { "class": "devicon-github-original", "name": "github-action" }
       ]
     },
     {
       "title": "Youtube-clone",
       "startDate": "2023",
-      "description": "YouTube Clone là một nền tảng chia sẻ video cho phép người dùng tải lên, xem và tương tác với nội dung video. Ứng dụng này sao chép các chức năng chính của YouTube, cung cấp giao diện thân thiện với người dùng.",
+      "description": "YouTube Clone là nền tảng chia sẻ video cho phép người dùng tải lên, xem và tương tác với nội dung video. Ứng dụng này mô phỏng các chức năng cốt lõi của YouTube, mang lại giao diện thân thiện với người dùng.",
       "images": [
         "images/youtube-clone/youtube-clone-1.png",
         "images/youtube-clone/youtube-clone-2.png"
       ],
       "url": "https://youtube-clone-sigma-sandy.vercel.app/",
       "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-axios-plain",
-          "name": "axios"
-        },
-        {
-          "class": "devicon-fastapi-plain",
-          "name": "api"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux-thunk"
-        }
+        { "class": "devicon-react-plain", "name": "react" },
+        { "class": "devicon-axios-plain", "name": "axios" },
+        { "class": "devicon-fastapi-plain", "name": "api" },
+        { "class": "devicon-redux-plain", "name": "redux" },
+        { "class": "devicon-redux-plain", "name": "redux-thunk" }
       ]
     },
     {
-      "title": "Random quotes machine",
+      "title": "Portfolio của tôi",
       "startDate": "2024",
-      "description": "The Random Quotes Machine là một ứng dụng web động và tương tác được thiết kế để truyền cảm hứng và giải trí người dùng với nhiều trích dẫn đa dạng. Mỗi lần người dùng tương tác với máy, nó sẽ tạo ra một trích dẫn mới, ngẫu nhiên từ cơ sở dữ liệu phong phú chứa các trích dẫn từ nhiều tác giả, triết gia, người nổi tiếng và nhân vật lịch sử",
-      "images": ["images/random-quotes/random-quotes-machine-project.png"],
-      "url": "https://random-quote-machine-eight-ecru.vercel.app/",
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-axios-plain",
-          "name": "axios"
-        },
-        {
-          "class": "devicon-fastapi-plain",
-          "name": "api"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux-thunk"
-        }
-      ]
-    },
-    {
-      "title": "Shortly-link",
-      "startDate": "2023",
-      "description": "Shortly-Link, giải pháp tối ưu cho việc rút ngắn URL và quản lý liên kết của bạn. Cho dù bạn là nhà tiếp thị, chủ doanh nghiệp, hay cá nhân muốn tối ưu hóa sự hiện diện trực tuyến của mình, Shortly-Link cung cấp một bộ công cụ mạnh mẽ để làm cho các liên kết của bạn dễ quản lý và có tác động hơn.",
-      "images": [
-        "images/shortly-link/shortly-link-1.png",
-        "images/shortly-link/shortly-link-2.png"
-      ],
-      "url": "https://shortly-link-chi.vercel.app/HomePage",
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-axios-plain",
-          "name": "axios"
-        },
-        {
-          "class": "devicon-fastapi-plain",
-          "name": "api"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux-thunk"
-        }
-      ]
-    },
-    {
-      "title": "My Porfolio",
-      "startDate": "2024",
-      "description": "Trang Portfolio: Trưng Bày Hành Trình và Công Việc Của Tôi",
+      "description": "Portfolio cá nhân: Nơi thể hiện hành trình và các sản phẩm của tôi.",
       "images": [
         "images/portfolio/portfolio-1.png",
         "images/portfolio/portfolio-2.png",
@@ -212,51 +110,62 @@
       ],
       "url": "https://portfolio-react-dev-one.vercel.app/",
       "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-sass-original",
-          "name": "sass"
-        },
-        {
-          "class": "devicon-bootstrap-plain",
-          "name": "bootstrap"
-        }
+        { "class": "devicon-react-plain", "name": "react" },
+        { "class": "devicon-sass-original", "name": "sass" },
+        { "class": "devicon-bootstrap-plain", "name": "bootstrap" }
       ]
     }
   ],
   "experience": [
     {
-      "company": "Cybersoft",
-      "title": "Lập Trình Viên FullStack",
-      "years": "5.2022 - 1.2023",
-      "mainTech": ["React, Nodejs 7/8"],
-      "technologies": [
-        "REST API",
-        "SASS",
-        "ES6",
-        "Bootstrap",
-        "JavaScript",
-        "TypeScript"
-      ]
-    },
-    {
-      "company": "Innorix",
-      "title": "Lập Trình Viên Fresher Front-End",
-      "years": "2.2024 - 4-2024",
-      "mainTech": ["React 8/9/10"],
+      "company": "Innorix Corporation",
+      "title": "Lập trình viên FULL-STACK Fresher",
+      "years": "2.2024 - 9-2024",
+      "mainTech": ["EJS 8/9/10"],
       "technologies": [
         "REST API",
         "Ejs",
         "JavaScript",
         "Bootstrap",
-        "Tabulator",
-        "MySQL",
-        "ExpressJs",
-        "Nodejs-ORM",
-        "Docker"
+        "Tabulator"
+      ]
+    },
+    {
+      "company": "Freelance Front-end Developer - Remote",
+      "title": "Lập trình viên Front-end",
+      "years": "2024 - Hiện tại",
+      "mainTech": ["React, NextJS"],
+      "technologies": [
+        "React",
+        "NextJs",
+        "NestJs",
+        "TypeScript",
+        "TailwindCss",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Gitlab",
+        "Figma",
+        "Swagger"
+      ]
+    },
+    {
+      "company": "Wisdom Robotics",
+      "title": "Lập trình viên FULL-STACK Fresher - Remote",
+      "years": "5-2025 - 7-2025",
+      "mainTech": ["React, NextJS"],
+      "technologies": [
+        "React",
+        "NextJs",
+        "NestJs",
+        "TypeScript",
+        "TailwindCss",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Gitlab",
+        "Figma",
+        "Swagger"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋I'm Ngo Van Quan, 22 years old, a programmer passionate about technology. Proficient in HTML, CSS, JavaScript and especially loves working with React to build dynamic web interfaces. Besides that, I also have experience with Node.js, Next.js and Express.js, which helps me develop web applications from frontend to backend. As an autodidact with a creative problem-solving mindset, I appreciate collaboration in a team environment. I look forward to contributing to exciting projects, applying my skills and continuing to develop professionally.",
+    "description": "Dynamic Frontend Developer with 1 year of experience in crafting responsive web applications that enhance user engagement and performance. Proficient in modern JavaScript and TypeScript frameworks such as Next.js and React, demonstrating a solid foundation in HTML & CSS to create user-friendly interfaces. Skilled in collaborating with cross-functional teams to refine project scopes and deliver high-quality, maintainable code. Strong commitment to optimizing front-end performance and ensuring adherence to best coding practices, driving impactful results in diverse development environments.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -12,26 +12,53 @@
   },
   "projects": [
     {
-      "title": "Jira",
-      "startDate": "2022",
-      "description": "Cloning in Jira refers to creating an exact copy of an existing issue. The clone inherits all the fields, including summaries, descriptions, attachments, and linked issues, but it gets a new issue key. This helps streamline workflow management by enabling quick duplication of tasks. You can test the as guest with email:'test@gmail.com', password:'test'. If yot want test full function follow Readme.md.",
+      "title": "MOTORBIKE SYSTEM",
+      "startDate": "2025",
+      "description": "This is a web application that allows customers to book service appointments, technicians to manage and perform maintenance tasks, and admins to oversee system operations. It supports features like user authentication, booking validation, service history tracking, and email notifications for a smooth and efficient maintenance process.",
       "images": [
-        "images/jira/jira-project-1.png",
-        "images/jira/jira-project-2.png"
+        "images/motorbike-system/mt-1.png",
+        "images/motorbike-system/mt-2.png",
+        "images/motorbike-system/mt-3.png",
+        "images/motorbike-system/mt-4.png",
+        "images/motorbike-system/mt-5.png",
+        "images/motorbike-system/mt-6.png",
+        "images/motorbike-system/mt-7.png",
+        "images/motorbike-system/mt-8.png",
+        "images/motorbike-system/mt-9.png",
+        "images/motorbike-system/mt-10.png"
       ],
-      "url": "https://jira-clone-ruby.vercel.app/login",
       "technologies": [
         {
           "class": "devicon-react-plain",
           "name": "react"
         },
         {
-          "class": "devicon-bootstrap-plain",
-          "name": "bootstrap"
+          "class": "devicon-nextjs-plain",
+          "name": "nextjs"
         },
         {
-          "class": "devicon-antdesign-plain",
-          "name": "Antd"
+          "class": "devicon-nestjs-plain",
+          "name": "nestjs"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "mongodb"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "docker"
+        },
+        {
+          "class": "devicon-typscript-plain",
+          "name": "typscript"
+        },
+        {
+          "class": "devicon-tailwindcss-plain",
+          "name": "tailwindcss"
+        },
+        {
+          "class": "devicon-antd-plain",
+          "name": "antd"
         },
         {
           "class": "devicon-axios-plain",
@@ -52,61 +79,43 @@
       ]
     },
     {
-      "title": "Jira Api",
-      "startDate": "2024",
-      "description": "API simulation system management work project, helps me document the release process development and work performed.",
-      "images": ["images/jira-api/jira-api.png"],
-      "url": "https://jira-main.onrender.com/swagger/",
+      "title": "ECOMMERCE PLATFORM - COSOVO",
+      "startDate": "2025",
+      "description": "Full-stack e-commerce platform for selling electronic products (In Development). Provides product display, order placement, QR code payment via VietQR, and payment webhook integration with Casso for seamless transactions.",
+      "images": [
+        "images/cosovo/cosovo-1.png",
+        "images/cosovo/cosovo-2.png",
+        "images/cosovo/cosovo-3.png",
+        "images/cosovo/cosovo-4.png"
+      ],
+      "url": "https://cosovo.vn",
       "technologies": [
-        {
-          "class": "devicon-bcrypt-plain",
-          "name": "bcrypt"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node js"
-        },
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "mongodb"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "express"
-        },
-        {
-          "class": "devicon-swagger-plain",
-          "name": "swagger"
-        }
+        { "class": "devicon-react-plain", "name": "reactjs" },
+        { "class": "devicon-typescript-plain", "name": "typescript" },
+        { "class": "devicon-go-plain", "name": "golang" },
+        { "class": "devicon-postgresql-plain", "name": "postgresql" },
+        { "class": "devicon-docker-plain", "name": "docker" },
+        { "class": "devicon-github-original", "name": "github-action" }
       ]
     },
     {
-      "title": "Air-bnb-api",
-      "startDate": "2023",
-      "description": "Air-bnb-api is a project that simulates the Airbnb application, providing an online platform for short-term home rentals. This project recreates the main features of Airbnb, allowing users to register, log in, search, and book accommodations. With a user-friendly interface and flexible accommodation management system, Air-bnb-api delivers a convenient and easy online home rental experience.",
-      "images": ["images/air-bnb-api/air-bnb-api.png"],
-      "url": "https://air-bnb-api.onrender.com/swagger",
+      "title": "ECOMMERCE PLATFORM - SAIGONTECH",
+      "startDate": "2025",
+      "description": "Full-stack e-commerce platform for wholesale electronic products (In Development). Features product display and order placement, built for scalability and reliability.",
+      "images": [
+        "images/saigontech/saigontech-1.png",
+        "images/saigontech/saigontech-2.png",
+        "images/saigontech/saigontech-3.png",
+        "images/saigontech/saigontech-4.png"
+      ],
+      "url": "https://saigonglobaltech.com",
       "technologies": [
-        {
-          "class": "devicon-bcrypt-plain",
-          "name": "bcrypt"
-        },
-        {
-          "class": "devicon-nodejs-plain",
-          "name": "Node js"
-        },
-        {
-          "class": "devicon-mongodb-plain",
-          "name": "mongodb"
-        },
-        {
-          "class": "devicon-express-original",
-          "name": "express"
-        },
-        {
-          "class": "devicon-swagger-plain",
-          "name": "swagger"
-        }
+        { "class": "devicon-nextjs-plain", "name": "nextjs" },
+        { "class": "devicon-typescript-plain", "name": "typescript" },
+        { "class": "devicon-go-plain", "name": "golang" },
+        { "class": "devicon-postgresql-plain", "name": "postgresql" },
+        { "class": "devicon-docker-plain", "name": "docker" },
+        { "class": "devicon-github-original", "name": "github-action" }
       ]
     },
     {
@@ -118,67 +127,6 @@
         "images/youtube-clone/youtube-clone-2.png"
       ],
       "url": "https://youtube-clone-sigma-sandy.vercel.app/",
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-axios-plain",
-          "name": "axios"
-        },
-        {
-          "class": "devicon-fastapi-plain",
-          "name": "api"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux-thunk"
-        }
-      ]
-    },
-    {
-      "title": "Random quotes machine",
-      "startDate": "2024",
-      "description": "The Random Quotes Machine is a dynamic and interactive web application designed to inspire and entertain users with a diverse array of quotes. Each time the user interacts with the machine, it generates a new, random quote from a rich database containing quotes from various authors, philosophers, celebrities, and historical figures.",
-      "images": ["images/random-quotes/random-quotes-machine-project.png"],
-      "url": "https://random-quote-machine-eight-ecru.vercel.app/",
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "react"
-        },
-        {
-          "class": "devicon-axios-plain",
-          "name": "axios"
-        },
-        {
-          "class": "devicon-fastapi-plain",
-          "name": "api"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux"
-        },
-        {
-          "class": "devicon-redux-plain",
-          "name": "redux-thunk"
-        }
-      ]
-    },
-    {
-      "title": "Shortly-link",
-      "startDate": "2023",
-      "description": "Shortly-Link, your ultimate solution for URL shortening and link management. Whether you’re a marketer, business owner, or individual looking to streamline your online presence, Shortly-Link offers a robust suite of tools to make your links more manageable and impactful.",
-      "images": [
-        "images/shortly-link/shortly-link-1.png",
-        "images/shortly-link/shortly-link-2.png"
-      ],
-      "url": "https://shortly-link-chi.vercel.app/HomePage",
       "technologies": [
         {
           "class": "devicon-react-plain",
@@ -230,34 +178,54 @@
   ],
   "experience": [
     {
-      "company": "Cybersoft",
-      "title": "FullStack developer",
-      "years": "5.2022 - 1.2023",
-      "mainTech": ["React, Nodejs 7/8"],
-      "technologies": [
-        "REST API",
-        "SASS",
-        "ES6",
-        "Bootstrap",
-        "JavaScript",
-        "TypeScript",
-        "MySQL",
-        "ExpressJs",
-        "Nodejs-ORM",
-        "Docker"
-      ]
-    },
-    {
-      "company": "Innorix",
+      "company": "Innorix Corporation",
       "title": "Fresher FULL-STACK DEVELOPER",
-      "years": "2.2024 - 4-2024",
-      "mainTech": ["React 8/9/10"],
+      "years": "2.2024 - 9-2024",
+      "mainTech": ["EJS 8/9/10"],
       "technologies": [
         "REST API",
         "Ejs",
         "JavaScript",
         "Bootstrap",
         "Tabulator"
+      ]
+    },
+    {
+      "company": "Freelance Front-end Developer - Remote",
+      "title": "Front-end Developer",
+      "years": "2024 - Present",
+      "mainTech": ["React, NextJS"],
+      "technologies": [
+        "React",
+        "NextJs",
+        "NestJs",
+        "TypeScript",
+        "TailwindCss",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Gitlab",
+        "Figma",
+        "Swagger"
+      ]
+    },
+    {
+      "company": "Wisdom Robotics",
+      "title": "Fresher FULL-STACK DEVELOPER - Remote",
+      "years": "5-2025 - 7-2025",
+      "mainTech": ["React, NextJS"],
+      "technologies": [
+        "React",
+        "NextJs",
+        "NestJs",
+        "TypeScript",
+        "TailwindCss",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Gitlab",
+        "Figma",
+        "Swagger"
       ]
     }
   ]
