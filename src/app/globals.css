@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-50: #faf6eb;
+  --color-gold-100: #f3ead3;
+  --color-gold-200: #e9d5a1;
+  --color-gold-300: #dfc070;
+  --color-gold-400: #d4a93e;
+  --color-gold-500: #ae944f;
+  --color-gold-600: #8a7640;
+  --color-gold-700: #665830;
+  --color-gold-800: #433a20;
+  --color-gold-900: #211d10;
+
+  --color-dark-50: #e8e8e8;
+  --color-dark-100: #d1d1d1;
+  --color-dark-200: #a3a3a3;
+  --color-dark-300: #757575;
+  --color-dark-400: #474747;
+  --color-dark-500: #1f1f1f;
+  --color-dark-600: #191919;
+  --color-dark-700: #131313;
+  --color-dark-800: #0d0d0d;
+  --color-dark-900: #070707;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Light mode (default) */
+  :root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8f5f0;
+    --bg-accent: #efe1bd;
+    --bg-dark-section: #1f1f1f;
+    --text-primary: #1a1a1a;
+    --text-secondary: #4a4a4a;
+    --text-muted: #6b7280;
+    --border-color: #e5e7eb;
+    --card-bg: #ffffff;
+    --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --hero-bg: #e9d5a1;
+    --modal-bg: #ffffff;
+    --card-header-bg: #e9d5a1;
+    --carousel-bg: #f3ead3;
+    --tech-badge-bg: #f3ead3;
+    --tech-badge-text: #1f1f1f;
+  }
+
+  /* Dark mode */
+  [data-theme="dark"] {
+    --bg-primary: #111118;
+    --bg-secondary: #191922;
+    --bg-accent: #1a1820;
+    --bg-dark-section: #0d0d14;
+    --text-primary: #eeeef2;
+    --text-secondary: #b8b8c8;
+    --text-muted: #8888a0;
+    --border-color: #2a2a3a;
+    --card-bg: #1e1e28;
+    --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    --hero-bg: #111118;
+    --modal-bg: #1e1e28;
+    --card-header-bg: #2a2530;
+    --carousel-bg: #1a1822;
+    --tech-badge-bg: #2a2530;
+    --tech-badge-text: #d8d0c8;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-gold-500);
+    border-radius: 2px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-gold-400);
+  }
+}
+
+@utility text-primary {
+  color: var(--text-primary);
+}
+@utility text-secondary {
+  color: var(--text-secondary);
+}
+@utility text-muted {
+  color: var(--text-muted);
+}
+@utility bg-primary {
+  background-color: var(--bg-primary);
+}
+@utility bg-secondary {
+  background-color: var(--bg-secondary);
+}
+@utility bg-accent {
+  background-color: var(--bg-accent);
+}
+@utility bg-dark-section {
+  background-color: var(--bg-dark-section);
+}
+@utility bg-hero {
+  background-color: var(--hero-bg);
+}
+@utility bg-card {
+  background-color: var(--card-bg);
+}
+@utility shadow-card {
+  box-shadow: var(--card-shadow);
+}
+@utility border-theme {
+  border-color: var(--border-color);
+}
+@utility bg-modal {
+  background-color: var(--modal-bg);
+}
+@utility bg-card-header {
+  background-color: var(--card-header-bg);
+}
+@utility bg-carousel {
+  background-color: var(--carousel-bg);
+}
+@utility bg-tech-badge {
+  background-color: var(--tech-badge-bg);
+}
+@utility text-tech-badge {
+  color: var(--tech-badge-text);
+}

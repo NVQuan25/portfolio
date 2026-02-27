@@ -1,81 +1,72 @@
+# NVQ Portfolio
 
+Personal portfolio website built with **Next.js 15**, **TypeScript**, **Tailwind CSS v4**, and **Framer Motion**.
 
-<h3>:eye_speech_bubble: Live demo</h3>
+## ✨ Features
 
-Check live demonstration <a href="https://portfolio-react-dev-one.vercel.app/"><strong>here</strong></a>
+- ⚡ **Next.js 15 App Router** — Multi-page routing with optimized navigation
+- 🎨 **Light / Dark Mode** — Seamless theme switching via `next-themes`
+- 🌐 **Bilingual** — English & Vietnamese content toggle
+- 🎬 **Framer Motion** — Smooth page transitions and micro-animations
+- 📱 **Fully Responsive** — Mobile-first design with hamburger menu
+- 📊 **Route Progress Bar** — Gold-themed top progress bar via `@bprogress/next`
 
-<img width="100%" src="./public/images/portfolio/portfolio-1.png" alt="react frontend dev portfolio preview"/>
+## 🛠️ Tech Stack
 
-<h3>:books: Getting started</h3>
+| Category   | Technology            |
+| ---------- | --------------------- |
+| Framework  | Next.js 15, React 19  |
+| Language   | TypeScript            |
+| Styling    | Tailwind CSS v4       |
+| Animations | Framer Motion         |
+| Icons      | Lucide React, Devicon |
+| Theme      | next-themes           |
+| Progress   | @bprogress/next       |
 
-1. Clone or fork project.
-2. Install required dependencies with `npm install`.
-3. Remove `homepage` entirely from `package.json` or set it to single dot.
+## 📁 Project Structure
 
 ```
-// package.json
-{
-  "name": "react-frontend-dev-portfolio",
-  "homepage": "https://portfolio-react-dev-one.vercel.app/",   <-- remove/edit this
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-  ...
-}
+src/
+├── app/
+│   ├── (main)/                # Route group with shared Navbar + Footer
+│   │   ├── about/page.tsx
+│   │   ├── projects/page.tsx
+│   │   ├── skills/page.tsx
+│   │   ├── experience/page.tsx
+│   │   ├── contact/page.tsx
+│   │   ├── layout.tsx         # Shared layout (Navbar + Footer)
+│   │   └── page.tsx           # Homepage (Hero)
+│   ├── globals.css            # Theme variables & custom utilities
+│   └── layout.tsx             # Root layout (fonts, providers)
+├── components/
+│   ├── layout/                # Navbar, Footer
+│   ├── sections/              # Page section components
+│   └── ui/                    # Reusable UI (ThemeToggle, TypeWriter, etc.)
+├── data/                      # Portfolio & resume data (EN/VN)
+├── hooks/                     # useLanguage
+├── provider/                  # AppProvider (theme + progress bar)
+├── lib/                       # Utilities (cn)
+└── types/                     # TypeScript interfaces
 ```
 
-4. `npm start` project and customize it.
-5. Deploy on github-pages using `npm run deploy` command.
+## 🚀 Getting Started
 
-<pre>
-⚠️ Note that:
-- if you want to have portfolio on different repository than `{username}.github.io`, 
-set `homepage` in `package.json` to `https://{username}.github.io/{repository-name}/` 
-before deploying portfolio.
-- if you want to run it locally with <strong>npm run start</strong>, make sure that you have edited 
-homepage property or json data won't load.
-</pre>
+```bash
+# Install dependencies
+npm install
 
-<h3>:star: Inspirations</h3>
+# Run dev server
+npm run dev
 
-<a href="https://github.com/stephane-monnot/react-vertical-timeline">React Vertical Timeline</a> <br/>
-<a href="https://github.com/rcaferati/react-awesome-slider">React Awesome Slider</a> <br/>
-<a href="https://github.com/markusenglund/react-switch">React Switch</a> <br/>
-<a href="https://github.com/catalinmiron/react-typical">React Typical</a> <br/>
-<a href="https://iconify.design/icon-sets/?query=angular">Iconify Design</a> <br/>
-<a href="https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#">Polaroid effect</a> <br/>
-<a href="https://tholman.com/github-corners/">GitHub Ref Corner</a>
-- changed resume files names to more "universal"
-- moved languages names to global variables
-- moved section names to json files
-- added target="_blank" for footer links
-- added startDate property for projects
-- excluded common json data to portfolio_shared_data file
-- added header section height calculation based on formula: window.innerHeight - 140
-- small changes to vertical timeline item (color/font-size)
-- project link in modal is not shown if empty
-- changed slider preloader bar color
-- wrapped each skill into tile
-- footer fullname is fetched from json now
-- added mising "px" for avatar in About.js component
-- updated json files content
-- page title is fetched from json data
-- added GitHub reference corner "label"
-- edited page meta
-- added margin, padding 0 for html tag
-- excluded light theme ref from theme-dark file
-- slightly changed Header.js section look
-- made some changes to App.js to apply global variables/shared json etc.
-- centered fullname/pos/theme toggler in Header section
-</pre>
-</details>
+# Build for production
+npm run build
 
-<h3>:gear: Contribution</h3>
+# Start production server
+npm start
+```
 
-If you have any suggestions on what to improve in <em>react-frontend-dev-portfolio</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-<h3>:camera: Credits(images)</h3>
+## 📄 License
 
-Images used in portfolio template come from Pixabay, references:
-
-<a href="https://pixabay.com/photos/people-woman-girl-clothing-eye-2563491/">p1</a>, <a href="https://pixabay.com/photos/dog-puppy-sharpei-petit-animal-1865712/">p2</a>, <a href="https://pixabay.com/photos/night-camera-photographer-photo-1927265/">p3</a>, <a href="https://pixabay.com/photos/road-forest-season-autumn-fall-1072823/">p4</a>, <a href="https://pixabay.com/photos/neuschwanstein-castle-bavaria-701732/">p5</a>, <a href="https://pixabay.com/photos/hohenschwangau-alps-alpsee-bavaria-532864/">p6</a>
+This project is private and not open for redistribution.
