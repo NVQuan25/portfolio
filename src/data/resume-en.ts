@@ -1,0 +1,230 @@
+import type { ResumeData } from "@/types/portfolio";
+
+export const resumeEn: ResumeData = {
+  basic_info: {
+    description_header: "Hi",
+    description:
+      "Frontend-driven Full-Stack Developer with 1+ year of experience delivering responsive, scalable web applications across diverse domains. Deep expertise in React ecosystem — Next.js, Redux Toolkit, React Query, Tailwind CSS — combined with solid backend knowledge in NestJS, and PostgreSQL. Experienced in shipping production-grade projects with Docker, VPS, and CI/CD, from booking platforms to microservices-based e-commerce systems.",
+    section_name: {
+      about: "About me",
+      projects: "Projects",
+      skills: "Skills",
+      experience: "Experience",
+      contact: "Contact",
+    },
+  },
+  projects: [
+    {
+      title: "MOTORBIKE SYSTEM",
+      startDate: "2025",
+      description:
+        "This is a web application that allows customers to book service appointments, technicians to manage and perform maintenance tasks, and admins to oversee system operations. It supports features like user authentication, booking validation, service history tracking, and email notifications for a smooth and efficient maintenance process.",
+      images: [
+        "/images/motorbike-system/mt-1.png",
+        "/images/motorbike-system/mt-2.png",
+        "/images/motorbike-system/mt-3.png",
+        "/images/motorbike-system/mt-4.png",
+        "/images/motorbike-system/mt-5.png",
+        "/images/motorbike-system/mt-6.png",
+        "/images/motorbike-system/mt-7.png",
+        "/images/motorbike-system/mt-8.png",
+        "/images/motorbike-system/mt-9.png",
+        "/images/motorbike-system/mt-10.png",
+      ],
+      technologies: [
+        { class: "devicon-react-plain", name: "React" },
+        { class: "devicon-nextjs-plain", name: "Next.js" },
+        { class: "devicon-nestjs-plain", name: "NestJS" },
+        { class: "devicon-mongodb-plain", name: "MongoDB" },
+        { class: "devicon-docker-plain", name: "Docker" },
+        { class: "devicon-typescript-plain", name: "TypeScript" },
+        { class: "devicon-tailwindcss-plain", name: "TailwindCSS" },
+        { class: "devicon-antdesign-plain", name: "Ant Design" },
+        { class: "devicon-axios-plain", name: "Axios" },
+        { class: "devicon-redux-original", name: "Redux" },
+      ],
+    },
+    {
+      title: "ECOMMERCE PLATFORM - COSOVO",
+      startDate: "2025",
+      description:
+        "Full-stack e-commerce platform for selling electronic products (In Development). Provides product display, order placement, QR code payment via VietQR, and payment webhook integration with Casso for seamless transactions.",
+      images: [
+        "/images/cosovo/cosovo-1.png",
+        "/images/cosovo/cosovo-2.png",
+        "/images/cosovo/cosovo-3.png",
+        "/images/cosovo/cosovo-4.png",
+      ],
+      url: "https://cosovo.vn",
+      technologies: [
+        { class: "devicon-react-plain", name: "ReactJS" },
+        { class: "devicon-typescript-plain", name: "TypeScript" },
+        { class: "devicon-go-plain", name: "Golang" },
+        { class: "devicon-postgresql-plain", name: "PostgreSQL" },
+        { class: "devicon-docker-plain", name: "Docker" },
+        { class: "devicon-github-original", name: "GitHub Actions" },
+      ],
+    },
+    {
+      title: "ECOMMERCE PLATFORM - SAIGONTECH",
+      startDate: "2025",
+      description:
+        "Full-stack e-commerce platform for wholesale electronic products (In Development). Features product display and order placement, built for scalability and reliability.",
+      images: [
+        "/images/saigontech/saigontech-1.png",
+        "/images/saigontech/saigontech-2.png",
+        "/images/saigontech/saigontech-3.png",
+        "/images/saigontech/saigontech-4.png",
+      ],
+      url: "https://saigonglobaltech.com",
+      technologies: [
+        { class: "devicon-nextjs-plain", name: "Next.js" },
+        { class: "devicon-typescript-plain", name: "TypeScript" },
+        { class: "devicon-go-plain", name: "Golang" },
+        { class: "devicon-postgresql-plain", name: "PostgreSQL" },
+        { class: "devicon-docker-plain", name: "Docker" },
+        { class: "devicon-github-original", name: "GitHub Actions" },
+      ],
+    },
+    // {
+    //   title: "Youtube Clone",
+    //   startDate: "2023",
+    //   description:
+    //     "The YouTube Clone is a video-sharing platform that allows users to upload, watch, and interact with video content. This application replicates the core functionalities of YouTube, providing a user-friendly interface.",
+    //   images: [
+    //     "/images/youtube-clone/youtube-clone-1.png",
+    //     "/images/youtube-clone/youtube-clone-2.png",
+    //   ],
+    //   url: "https://youtube-clone-sigma-sandy.vercel.app/",
+    //   technologies: [
+    //     { class: "devicon-react-plain", name: "React" },
+    //     { class: "devicon-axios-plain", name: "Axios" },
+    //     { class: "devicon-redux-original", name: "Redux" },
+    //   ],
+    // },
+    {
+      title: "Comprehensive ERP-style web application - The point saver",
+      startDate: "2025",
+      description:
+        "A comprehensive ERP-style web application built with a microservice architecture, featuring order & deal management, invoicing, payment processing, stock & delivery tracking, leave management, and support ticketing — with role-based access control, Google OAuth, and real-time analytics dashboards across both client and admin portals.",
+      images: [
+        "/images/thepointsaver/thepointsaver-1.png",
+        "/images/thepointsaver/thepointsaver-2.png",
+      ],
+      url: "https://tps-client.vercel.app",
+      technologies: [
+        { class: "devicon-react-plain", name: "React" },
+        { class: "devicon-typescript-plain", name: "TypeScript" },
+        { class: "devicon-redux-original", name: "Redux" },
+        { class: "devicon-tailwindcss-original", name: "TailwindCSS" },
+        { class: "devicon-nestjs-original", name: "NestJS" },
+        { class: "devicon-prisma-original", name: "Prisma" },
+      ],
+    },
+    {
+      title: "E-commerce website for the fashion brand - EasyBadWork",
+      startDate: "2024",
+      description:
+        "E-commerce website for the fashion brand EasyBadWork, featuring product display by category, product details, cart & checkout, discount code application, order management, appointment scheduling — plus an admin dashboard with product & inventory management, revenue statistics, discount code management, and JWT authentication.",
+      images: [
+        "/images/easybadwork/easybadwork-1.png",
+        "/images/easybadwork/easybadwork-2.png",
+        "/images/easybadwork/easybadwork-3.png",
+        "/images/easybadwork/easybadwork-4.png",
+      ],
+      url: "https://easybadwork.com",
+      technologies: [
+        { class: "devicon-nextjs-plain", name: "Next.js" },
+        { class: "devicon-typescript-plain", name: "TypeScript" },
+        { class: "devicon-redux-original", name: "Redux" },
+        { class: "devicon-tailwindcss-original", name: "TailwindCSS" },
+        { class: "devicon-antdesign-plain", name: "Ant Design" },
+        { class: "devicon-docker-plain", name: "Docker" },
+      ],
+    },
+    {
+      title: "Listings platform - CHOF.VN",
+      startDate: "2025",
+      description:
+        "A listings platform connecting producers directly to consumers across 6 core categories: Fashion, Freelance, Furniture, Fruit, Fix, and Food. Built with a microservices architecture to ensure high performance, real-time engagement, and scalability.",
+      images: [
+        "/images/chof/chof-1.png",
+        "/images/chof/chof-2.png",
+        "/images/chof/chof-3.png",
+        "/images/chof/chof-4.png",
+      ],
+      url: "https://chof.vn",
+      technologies: [
+        { class: "devicon-nextjs-plain", name: "Next.js" },
+        { class: "devicon-typescript-plain", name: "TypeScript" },
+        { class: "devicon-redux-original", name: "Redux" },
+        { class: "devicon-tailwindcss-original", name: "TailwindCSS" },
+        { class: "devicon-docker-plain", name: "Docker" },
+      ],
+    },
+    // {
+    //   title: "My Portfolio",
+    //   startDate: "2024",
+    //   description: "My Portfolio: Showcasing My Journey and Work",
+    //   images: [
+    //     "/images/portfolio/portfolio-1.png",
+    //     "/images/portfolio/portfolio-2.png",
+    //     "/images/portfolio/portfolio-3.png",
+    //   ],
+    //   url: "https://portfolio-react-dev-one.vercel.app/",
+    //   technologies: [
+    //     { class: "devicon-react-plain", name: "React" },
+    //     { class: "devicon-nextjs-plain", name: "Next.js" },
+    //     { class: "devicon-tailwindcss-plain", name: "TailwindCSS" },
+    //     { class: "devicon-typescript-plain", name: "TypeScript" },
+    //   ],
+    // },
+  ],
+  experience: [
+    {
+      company: "Innorix Corporation",
+      title: "Fresher FULL-STACK DEVELOPER",
+      years: "2.2024 - 9.2024",
+      mainTech: ["EJS 8/9/10"],
+      technologies: ["REST API", "EJS", "JavaScript", "Bootstrap", "Tabulator"],
+    },
+    {
+      company: "Freelance Front-end Developer - Remote",
+      title: "Front-end Developer",
+      years: "2024 - Present",
+      mainTech: ["React, NextJS"],
+      technologies: [
+        "React",
+        "NextJs",
+        "NestJs",
+        "TypeScript",
+        "TailwindCss",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Gitlab",
+        "Figma",
+        "Swagger",
+      ],
+    },
+    {
+      company: "Wisdom Robotics",
+      title: "Fresher FULL-STACK DEVELOPER",
+      years: "5.2025 - 11.2025",
+      mainTech: ["React, NextJS"],
+      technologies: [
+        "React",
+        "NextJs",
+        "NestJs",
+        "TypeScript",
+        "TailwindCss",
+        "MongoDB",
+        "Docker",
+        "Git",
+        "Gitlab",
+        "Figma",
+        "Swagger",
+      ],
+    },
+  ],
+};
