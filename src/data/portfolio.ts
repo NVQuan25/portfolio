@@ -16,7 +16,7 @@ export const sharedData: SharedData = {
         class: "fab fa-instagram",
       },
     ],
-    email: "vq.2509.2003@gmail.com",
+    email: "vquan.dev@gmail.com",
     phone: "0945797133",
     github: "https://github.com/NVQuan25",
     image: "MyImage.png",
