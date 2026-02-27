@@ -106,7 +106,7 @@ export const resumeVn: ResumeData = {
       title: "Ứng dụng web ERP toàn diện - The point saver",
       startDate: "2025",
       description:
-        "Ứng dụng web ERP toàn diện được xây dựng với kiến trúc microservice, bao gồm quản lý đơn hàng & giao dịch, xử lý thanh toán, theo dõi tồn kho & giao hàng, quản lý nghỉ phép và hỗ trợ kỹ thuật — với kiểm soát truy cập dựa trên vai trò, Google OAuth và bảng điều khiển phân tích thời gian thực trên cả cổng khách hàng và quản trị viên.",
+        "Ứng dụng web ERP toàn diện được xây dựng với kiến trúc monolithic, bao gồm quản lý đơn hàng & giao dịch, xử lý thanh toán, theo dõi tồn kho & giao hàng, quản lý nghỉ phép và hỗ trợ kỹ thuật — với kiểm soát truy cập dựa trên vai trò, Google OAuth và bảng điều khiển phân tích thời gian thực trên cả cổng khách hàng và quản trị viên.",
       images: [
         "/images/thepointsaver/thepointsaver-1.png",
         "/images/thepointsaver/thepointsaver-2.png",
@@ -192,8 +192,8 @@ export const resumeVn: ResumeData = {
       technologies: ["REST API", "EJS", "JavaScript", "Bootstrap", "Tabulator"],
     },
     {
-      company: "Freelance Front-end Developer - Remote",
-      title: "Lập trình viên Front-end",
+      company: "Freelance Full-stack Developer - Remote",
+      title: "Lập trình viên Full-stack",
       years: "2024 - Hiện tại",
       mainTech: ["React, NextJS"],
       technologies: [

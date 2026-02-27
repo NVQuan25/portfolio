@@ -106,7 +106,7 @@ export const resumeEn: ResumeData = {
       title: "Comprehensive ERP-style web application - The point saver",
       startDate: "2025",
       description:
-        "A comprehensive ERP-style web application built with a microservice architecture, featuring order & deal management, invoicing, payment processing, stock & delivery tracking, leave management, and support ticketing — with role-based access control, Google OAuth, and real-time analytics dashboards across both client and admin portals.",
+        "A comprehensive ERP-style web application built with a monolithic architecture, featuring order & deal management, invoicing, payment processing, stock & delivery tracking, leave management, and support ticketing — with role-based access control, Google OAuth, and real-time analytics dashboards across both client and admin portals.",
       images: [
         "/images/thepointsaver/thepointsaver-1.png",
         "/images/thepointsaver/thepointsaver-2.png",
@@ -189,8 +189,8 @@ export const resumeEn: ResumeData = {
       technologies: ["REST API", "EJS", "JavaScript", "Bootstrap", "Tabulator"],
     },
     {
-      company: "Freelance Front-end Developer - Remote",
-      title: "Front-end Developer",
+      company: "Freelance Full-stack Developer - Remote",
+      title: "Full-stack Developer",
       years: "2024 - Present",
       mainTech: ["React, NextJS"],
       technologies: [
